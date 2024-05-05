@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kvserver"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Aarnikoivu <oliveraarnikoivu@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
